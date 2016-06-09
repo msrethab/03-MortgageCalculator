@@ -1,0 +1,47 @@
+/* Base styling for body elements */
+
+body {
+    font: normal 1.25em Verdana, Arial, sans-serif;
+    background-color: #fff;
+  	color: #333;
+  	box-sizing: border-box;
+}	
+
+/* Styling the header */
+
+h1{
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+/* Styling the input fields */
+
+form{
+	margin: 0 auto;
+
+
+}
+
+/* Styling the answer */
+
+#answer {
+	text-align: center;
+	display: block;
+	margin: 2.5%;
+	padding: 15px 32px;
+	width: 95%;
+	font-size: 1.25em;
+	font-weight: bold;
+	background-color: #fff;
+	float: left;
+}
+
+/* Styling the footer */
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px
+  color: #ccc;
+}

@@ -35,7 +35,10 @@ $(document).ready(function(){
 
 	//Outputting the monthly payment and changing the answer field to light grey
 
-	$('#answer').html("Your monthly payment is  $" + monthlyPayment + ".");
-	$('#answer').css('background', '#ddd');
+	var $answer = $("<p></p>");
+	
+	$answer.html("Your monthly payment is  $" + monthlyPayment + ".").css('background', '#ddd').attr("id", "answer");
+	$(".container").append($answer);
+
 	})
 });

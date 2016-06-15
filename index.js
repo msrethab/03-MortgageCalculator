@@ -31,7 +31,7 @@ $(document).ready(function(){
 	var intQuotient = (monthIntRate * compIntRate) / (compIntRate - 1)
 	var monthlyPayment = loanBal * intQuotient;
 
-	monthlyPayment = monthlyPayment.toFixed(2);
+	monthlyPayment = Math.round(monthlyPayment * 100)/100;
 
 	//Outputting the monthly payment and changing the answer field to light grey
 
@@ -42,3 +42,5 @@ $(document).ready(function(){
 
 	})
 });
+
+// Initials: MTS RN AP

@@ -15,3 +15,12 @@ Version 1.0.1
 -Moved display of answer text to javaScript using jQuery instead of html
 
 -Appended footer to center bottom of page with fixed position
+
+
+
+Version 1.0.2
+
+
+-Changed toFixed function to Math.round for better money calculation
+
+-Peer reviewed by Rick Nogueras and Adam Peltier
